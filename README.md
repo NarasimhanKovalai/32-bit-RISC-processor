@@ -1,6 +1,9 @@
 # 32-bit 5-Stage Pipeline (Logisim)
+Refer to Final Circuit.circ logisim file to load the processor onto logisim. Implementation Circuit.pdf contains details on each of the components in the procesor.Instruction Encoding.pdf contains the naive ISA design used.
 
-This project implements a five-stage 32-bit RISC pipeline with a simplified instruction set. The pipeline includes:
+Note that the only similarity to RISC pipeline is the classic 5 stage pipeline. We have not implemented the exact ISA (privileged or unprivileged) and other specs like zicr and CSR registers.
+
+This project implements a five-stage 32-bit pipeline with a simplified instruction set. The pipeline includes:
 
 - A hardwired control unit.
 - A dual-port register unit with 32 general-purpose registers (GPRs).
