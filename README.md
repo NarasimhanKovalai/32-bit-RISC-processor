@@ -1,4 +1,4 @@
-# 32-bit 5-Stage RISC Pipeline (Logisim)
+# 32-bit 5-Stage Pipeline (Logisim)
 
 This project implements a five-stage 32-bit RISC pipeline with a simplified instruction set. The pipeline includes:
 
@@ -37,7 +37,13 @@ This project implements a five-stage 32-bit RISC pipeline with a simplified inst
    - Results can be viewed at specific RAM addresses, depending on the program being executed.
 
 ---
+##  Supported Instructions
 
+The processor supports the following instructions and their immediate value versions:
+
+- `ADD`, `SUB`, `MOVE`, `LOAD`, `STORE`, `OR`, `AND`, `HALT`
+Branching and branch prediction may be added in later revision.
+---
 
 ##  Notes
 
